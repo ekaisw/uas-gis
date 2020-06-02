@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_map"
+        android:layout_width="141dp"
+        android:layout_height="149dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="190dp"
+        android:onClick="maps1"
+        android:src="@drawable/pclaptop_icon" />
+
+    <ImageView
+        android:id="@+id/iv_map2"
+        android:layout_width="101dp"
+        android:layout_height="137dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp"
+        android:layout_toRightOf="@id/iv_map"
+        android:onClick="maps2"
+        android:src="@drawable/phonetablet_icon" />
+
+    <ImageView
+        android:id="@+id/iv_map3"
+        android:layout_width="151dp"
+        android:layout_height="161dp"
+        android:layout_below="@id/iv_map"
+        android:layout_gravity="center"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:onClick="maps3"
+        android:src="@drawable/camera_icon" />
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_below="@id/iv_map3"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFC107"
+        android:layout_height="10dp" />
+
+
+</RelativeLayout>
